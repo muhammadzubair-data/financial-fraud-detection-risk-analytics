@@ -1,0 +1,88 @@
+{
+  "methodology": {
+    "policy_tuning_rows": 54073,
+    "policy_holdout_rows": 54073,
+    "policy_tuning_start": "2025-09-12 06:40:35",
+    "policy_tuning_end": "2025-11-06 08:19:07",
+    "policy_holdout_start": "2025-11-06 08:19:40",
+    "policy_holdout_end": "2025-12-30 23:58:51",
+    "note": "Threshold selected on earlier policy-tuning half and frozen before later policy-holdout evaluation."
+  },
+  "selected_threshold_on_policy_tuning": {
+    "threshold": 0.75,
+    "n_flagged": 1477,
+    "fraud_prevented": 106769.43,
+    "investigation_cost": 17724.0,
+    "friction_cost": 11136.0,
+    "net_business_value": 77909.43,
+    "precision": 0.0575,
+    "recall": 0.2615
+  },
+  "frozen_threshold_performance_on_policy_holdout": {
+    "threshold": 0.75,
+    "n_flagged": 1525,
+    "fraud_prevented": 129804.71,
+    "investigation_cost": 18300.0,
+    "friction_cost": 11632.0,
+    "net_business_value": 99872.71,
+    "precision": 0.0466,
+    "recall": 0.2126
+  },
+  "default_0_5_performance_on_policy_holdout": {
+    "threshold": 0.5,
+    "n_flagged": 7106,
+    "fraud_prevented": 205382.01,
+    "investigation_cost": 85272.0,
+    "friction_cost": 55848.0,
+    "net_business_value": 64262.01,
+    "precision": 0.0176,
+    "recall": 0.3743
+  },
+  "ranking_strategy_comparison_on_policy_holdout": [
+    {
+      "investigation_budget": 250,
+      "money_protected_expected_loss_ranking": 125668.79,
+      "money_protected_probability_only_ranking": 57574.92,
+      "dollar_lift_pct_from_expected_loss_ranking": 118.3,
+      "fraud_cases_caught_expected_loss_ranking": 13,
+      "fraud_cases_caught_probability_only_ranking": 25
+    },
+    {
+      "investigation_budget": 500,
+      "money_protected_expected_loss_ranking": 150466.22,
+      "money_protected_probability_only_ranking": 78850.88,
+      "dollar_lift_pct_from_expected_loss_ranking": 90.8,
+      "fraud_cases_caught_expected_loss_ranking": 17,
+      "fraud_cases_caught_probability_only_ranking": 43
+    },
+    {
+      "investigation_budget": 1000,
+      "money_protected_expected_loss_ranking": 176684.6,
+      "money_protected_probability_only_ranking": 109932.18,
+      "dollar_lift_pct_from_expected_loss_ranking": 60.7,
+      "fraud_cases_caught_expected_loss_ranking": 25,
+      "fraud_cases_caught_probability_only_ranking": 58
+    },
+    {
+      "investigation_budget": 1500,
+      "money_protected_expected_loss_ranking": 203453.14,
+      "money_protected_probability_only_ranking": 129044.35,
+      "dollar_lift_pct_from_expected_loss_ranking": 57.7,
+      "fraud_cases_caught_expected_loss_ranking": 36,
+      "fraud_cases_caught_probability_only_ranking": 70
+    },
+    {
+      "investigation_budget": 2500,
+      "money_protected_expected_loss_ranking": 217268.43,
+      "money_protected_probability_only_ranking": 191457.9,
+      "dollar_lift_pct_from_expected_loss_ranking": 13.5,
+      "fraud_cases_caught_expected_loss_ranking": 46,
+      "fraud_cases_caught_probability_only_ranking": 89
+    }
+  ],
+  "assumptions": {
+    "expected_loss_rate": 0.85,
+    "cost_per_investigation": 12.0,
+    "friction_cost_per_false_positive": 8.0
+  }
+}

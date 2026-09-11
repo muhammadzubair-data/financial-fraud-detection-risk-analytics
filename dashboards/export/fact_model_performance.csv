@@ -1,0 +1,4 @@
+model,pr_auc,roc_auc,recall_at_2162,precision_at_2162,dollar_capture_at_2162
+LogisticRegression,0.0361,0.6848,0.2382,0.0726,0.5284
+RandomForest,0.0296,0.6789,0.1851,0.0564,0.2905
+XGBoost,0.042,0.6613,0.2018,0.0615,0.4028

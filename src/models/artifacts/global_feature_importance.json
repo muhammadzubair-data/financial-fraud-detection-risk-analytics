@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "failed_attempts_24h",
+    "mean_abs_shap": 1.50712
+  },
+  {
+    "feature": "customer_amount_zscore",
+    "mean_abs_shap": 1.26904
+  },
+  {
+    "feature": "merchant_risk_score",
+    "mean_abs_shap": 0.19673
+  },
+  {
+    "feature": "amount",
+    "mean_abs_shap": 0.11258
+  },
+  {
+    "feature": "distance_from_prev_km",
+    "mean_abs_shap": 0.08608
+  },
+  {
+    "feature": "avg_monthly_spend",
+    "mean_abs_shap": 0.07262
+  },
+  {
+    "feature": "account_age_days",
+    "mean_abs_shap": 0.06268
+  },
+  {
+    "feature": "time_since_last_txn_sec",
+    "mean_abs_shap": 0.05625
+  },
+  {
+    "feature": "amount_vs_customer_avg",
+    "mean_abs_shap": 0.05399
+  },
+  {
+    "feature": "day_of_week",
+    "mean_abs_shap": 0.03355
+  },
+  {
+    "feature": "hour_of_day",
+    "mean_abs_shap": 0.03179
+  },
+  {
+    "feature": "amount_log",
+    "mean_abs_shap": 0.0309
+  },
+  {
+    "feature": "new_device_flag",
+    "mean_abs_shap": 0.02915
+  },
+  {
+    "feature": "cat_gambling",
+    "mean_abs_shap": 0.02066
+  },
+  {
+    "feature": "cat_jewelry",
+    "mean_abs_shap": 0.01989
+  }
+]

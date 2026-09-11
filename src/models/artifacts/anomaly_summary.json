@@ -1,0 +1,10 @@
+{
+  "n_flagged_each_system": 2162,
+  "overlap_both_systems": 627,
+  "iso_only": 1535,
+  "xgb_only": 1535,
+  "fraud_rate_in_overlap": 0.1005,
+  "fraud_rate_in_iso_only": 0.028,
+  "fraud_rate_in_xgb_only": 0.0456,
+  "overall_fraud_rate": 0.0061
+}

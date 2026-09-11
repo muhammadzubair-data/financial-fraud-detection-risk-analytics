@@ -1,0 +1,347 @@
+[
+  {
+    "transaction_id": 692679,
+    "customer_id": 1386,
+    "amount": 387.02,
+    "fraud_probability": 0.9803,
+    "risk_score_0_100": 98,
+    "actually_fraud": true,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "Transaction location 10591 km from previous transaction",
+      "New, previously unseen device",
+      "High-risk merchant category (risk score 2.7)"
+    ]
+  },
+  {
+    "transaction_id": 717153,
+    "customer_id": 235,
+    "amount": 305.06,
+    "fraud_probability": 0.976,
+    "risk_score_0_100": 98,
+    "actually_fraud": true,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "New, previously unseen device",
+      "High-risk merchant category (risk score 4.7)",
+      "Transaction amount 15.8x this customer's normal behavior"
+    ]
+  },
+  {
+    "transaction_id": 631385,
+    "customer_id": 386,
+    "amount": 678.08,
+    "fraud_probability": 0.9727,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "2 failed attempts in the prior 24 hours before this approval",
+      "New, previously unseen device",
+      "High-risk merchant category (risk score 5.7)"
+    ]
+  },
+  {
+    "transaction_id": 626938,
+    "customer_id": 5488,
+    "amount": 845.31,
+    "fraud_probability": 0.9684,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "3 failed attempts in the prior 24 hours before this approval",
+      "High-risk merchant category (risk score 5.9)",
+      "New, previously unseen device"
+    ]
+  },
+  {
+    "transaction_id": 666675,
+    "customer_id": 2047,
+    "amount": 366.98,
+    "fraud_probability": 0.9681,
+    "risk_score_0_100": 97,
+    "actually_fraud": true,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "New, previously unseen device",
+      "Transaction amount 8.4x this customer's normal behavior"
+    ]
+  },
+  {
+    "transaction_id": 619620,
+    "customer_id": 1495,
+    "amount": 426.55,
+    "fraud_probability": 0.9674,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 5.0)",
+      "Transaction location 275 km from previous transaction"
+    ]
+  },
+  {
+    "transaction_id": 681024,
+    "customer_id": 1730,
+    "amount": 397.34,
+    "fraud_probability": 0.9673,
+    "risk_score_0_100": 97,
+    "actually_fraud": true,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 3.6)",
+      "Transaction location 484 km from previous transaction"
+    ]
+  },
+  {
+    "transaction_id": 681131,
+    "customer_id": 5477,
+    "amount": 705.46,
+    "fraud_probability": 0.9667,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "1 failed attempts in the prior 24 hours before this approval",
+      "High-risk merchant category (risk score 5.9)"
+    ]
+  },
+  {
+    "transaction_id": 675288,
+    "customer_id": 3119,
+    "amount": 26.05,
+    "fraud_probability": 0.9654,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction location 10553 km from previous transaction",
+      "Relatively new account (81 days old)",
+      "Transaction amount far outside this customer's normal range"
+    ]
+  },
+  {
+    "transaction_id": 669562,
+    "customer_id": 3283,
+    "amount": 645.45,
+    "fraud_probability": 0.9652,
+    "risk_score_0_100": 97,
+    "actually_fraud": false,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "2 failed attempts in the prior 24 hours before this approval",
+      "Unusually large transaction amount ($645)"
+    ]
+  },
+  {
+    "transaction_id": 674717,
+    "customer_id": 2926,
+    "amount": 297.53,
+    "fraud_probability": 0.9634,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 3.9)",
+      "Transaction amount 8.7x this customer's normal behavior"
+    ]
+  },
+  {
+    "transaction_id": 658057,
+    "customer_id": 4749,
+    "amount": 2175.34,
+    "fraud_probability": 0.9629,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "1 failed attempts in the prior 24 hours before this approval",
+      "High-risk merchant category (risk score 3.0)"
+    ]
+  },
+  {
+    "transaction_id": 700303,
+    "customer_id": 1024,
+    "amount": 958.82,
+    "fraud_probability": 0.9629,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 8.0)"
+    ]
+  },
+  {
+    "transaction_id": 616777,
+    "customer_id": 2214,
+    "amount": 1068.71,
+    "fraud_probability": 0.9629,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 4.6)"
+    ]
+  },
+  {
+    "transaction_id": 652567,
+    "customer_id": 3284,
+    "amount": 217.73,
+    "fraud_probability": 0.9621,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "2 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 3.1)",
+      "Unusually large transaction amount ($218)"
+    ]
+  },
+  {
+    "transaction_id": 652005,
+    "customer_id": 1817,
+    "amount": 85.28,
+    "fraud_probability": 0.962,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "Transaction location 82 km from previous transaction",
+      "High-risk merchant category (risk score 2.8)",
+      "Transaction amount 9.3x this customer's normal behavior"
+    ]
+  },
+  {
+    "transaction_id": 714163,
+    "customer_id": 1458,
+    "amount": 248.83,
+    "fraud_probability": 0.9618,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "New, previously unseen device",
+      "High-risk merchant category (risk score 3.9)"
+    ]
+  },
+  {
+    "transaction_id": 613798,
+    "customer_id": 1536,
+    "amount": 379.89,
+    "fraud_probability": 0.9617,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "2 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 3.8)"
+    ]
+  },
+  {
+    "transaction_id": 647686,
+    "customer_id": 1736,
+    "amount": 208.81,
+    "fraud_probability": 0.9614,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "2 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 8.3)",
+      "Unusually large transaction amount ($209)"
+    ]
+  },
+  {
+    "transaction_id": 633552,
+    "customer_id": 4201,
+    "amount": 1298.4,
+    "fraud_probability": 0.9609,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 5.7)"
+    ]
+  },
+  {
+    "transaction_id": 651374,
+    "customer_id": 2540,
+    "amount": 353.8,
+    "fraud_probability": 0.9608,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 4.8)",
+      "Unusually large transaction amount ($354)"
+    ]
+  },
+  {
+    "transaction_id": 650948,
+    "customer_id": 193,
+    "amount": 165.38,
+    "fraud_probability": 0.9605,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "2 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "Transaction location 10840 km from previous transaction",
+      "High-risk merchant category (risk score 2.9)",
+      "Transaction in a country different from customer's home country"
+    ]
+  },
+  {
+    "transaction_id": 630343,
+    "customer_id": 2904,
+    "amount": 2335.6,
+    "fraud_probability": 0.9597,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "1 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "High-risk merchant category (risk score 5.9)"
+    ]
+  },
+  {
+    "transaction_id": 678877,
+    "customer_id": 5835,
+    "amount": 11832.99,
+    "fraud_probability": 0.9594,
+    "risk_score_0_100": 96,
+    "actually_fraud": true,
+    "reason_codes": [
+      "Transaction amount far outside this customer's normal range",
+      "2 failed attempts in the prior 24 hours before this approval",
+      "High-risk merchant category (risk score 2.2)"
+    ]
+  },
+  {
+    "transaction_id": 693148,
+    "customer_id": 859,
+    "amount": 2198.23,
+    "fraud_probability": 0.9592,
+    "risk_score_0_100": 96,
+    "actually_fraud": false,
+    "reason_codes": [
+      "3 failed attempts in the prior 24 hours before this approval",
+      "Transaction amount far outside this customer's normal range",
+      "New, previously unseen device",
+      "Transaction amount 11.2x this customer's normal behavior"
+    ]
+  }
+]

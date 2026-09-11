@@ -1,0 +1,26 @@
+[
+  {
+    "model": "LogisticRegression",
+    "pr_auc": 0.0361,
+    "roc_auc": 0.6848,
+    "recall_at_2162": 0.2382,
+    "precision_at_2162": 0.0726,
+    "dollar_capture_at_2162": 0.5284
+  },
+  {
+    "model": "RandomForest",
+    "pr_auc": 0.0296,
+    "roc_auc": 0.6789,
+    "recall_at_2162": 0.1851,
+    "precision_at_2162": 0.0564,
+    "dollar_capture_at_2162": 0.2905
+  },
+  {
+    "model": "XGBoost",
+    "pr_auc": 0.042,
+    "roc_auc": 0.6613,
+    "recall_at_2162": 0.2018,
+    "precision_at_2162": 0.0615,
+    "dollar_capture_at_2162": 0.4028
+  }
+]

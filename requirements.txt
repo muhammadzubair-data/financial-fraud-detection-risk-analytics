@@ -1,0 +1,8 @@
+numpy
+pandas
+pyarrow
+faker
+scikit-learn
+xgboost
+shap
+joblib
